@@ -36,7 +36,7 @@ Presentation
 
         Image {
             id: background
-            source: "1.svg"
+            source: "1.png"
             anchors.fill: parent
         
             Text {
@@ -44,8 +44,8 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: -125
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("Here the actual install of KaOS will start.<br/>"+
+                color: 'black'
+                text: qsTr("Welcome to pearOS installer<br/>"+
                     "Use the left <b>mouse button</b> to go to the next slide, right for previous.<br/>"+
                     "After creating your chosen disk setup in the first 10 % <br/>"+
                     "the full copying of the ISO will take the longest of this install phase <br/>"+
@@ -62,7 +62,7 @@ Presentation
 
         Image {
             id: background1
-            source: "2.svg"
+            source: "2.png"
             anchors.fill: parent
 
             Text {
@@ -70,11 +70,11 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: 250
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("After the ISO is copied some 25 post-install modules will run.<br/>"+
-                    "This includes setting user specific options, <br/>"+
-                    "removing Live Session only packages<br/>"+
-                    "and adjusting hardware setup.<br/>")
+                color: 'black'
+                text: qsTr("Are you ready for a smooth Linux experience?<br/>"+
+                    "This OS contains everything you need for day to day usage, <br/>"+
+                    "support for development applications, like Android Studio,<br/>"+
+                    "Visual Studio Code, and much more<br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.AlignLeft
@@ -87,7 +87,7 @@ Presentation
 
         Image {
             id: background2
-            source: "3.svg"
+            source: "3.png"
             anchors.fill: parent
 
             Text {
@@ -95,9 +95,10 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: -100
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("The default Office Suite is Calligra.<br/>"+
-                    "LibreOffice is available in the repositories. <br/>")
+                color: 'black'
+                text: qsTr("The package manager is APT<br/>"+
+                    "Install apps using 'sudo apt install <package name>'. <br/>"+
+                    "for example, sudo apt install obs-studio<br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.AlignLeft
@@ -110,7 +111,7 @@ Presentation
 
         Image {
             id: background3
-            source: "4.svg"
+            source: "4.png"
             anchors.fill: parent
 
             Text {
@@ -118,10 +119,10 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: 250
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("Qt/KDE specific internet applications include the <br/>"+
-                    "Qupzilla web-browser and kde-telepathy for <br/>"+
-                    "chat and Instant Messaging. <br/>")
+                color: 'black'
+                text: qsTr("There are two browsers included in pearOS <br/>"+
+                    "Mozilla Firefox, for stability and daily usage, <br/>"+
+                    "and Pafari for macOS look and feel <br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.AlignLeft
@@ -134,7 +135,7 @@ Presentation
 
         Image {
             id: background4
-            source: "5.svg"
+            source: "5.png"
             anchors.fill: parent
 
             Text {
@@ -142,8 +143,8 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: -200
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("For package management Octopi is the GUI application.<br/>")
+                color: 'black'
+                text: qsTr("It has the latest stable Linux kernel, 5.10<br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.Center
@@ -156,7 +157,7 @@ Presentation
 
         Image {
             id: background5
-            source: "6.svg"
+            source: "6.png"
             anchors.fill: parent
 
             Text {
@@ -164,8 +165,8 @@ Presentation
                 anchors.verticalCenterOffset: 0
                 anchors.horizontalCenterOffset: 250
                 font.pixelSize: parent.width *.015
-                color: 'white'
-                text: qsTr("May using KaOS be a pleasant experience for you.")
+                color: 'black'
+                text: qsTr("It is based on NiceC0re (debian+ ubuntu repos+ kde desktop+ pear UI)")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.Center
