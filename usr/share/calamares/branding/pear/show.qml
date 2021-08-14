@@ -45,7 +45,7 @@ Presentation
                 anchors.horizontalCenterOffset: -125
                 font.pixelSize: parent.width *.015
                 color: 'black'
-                text: qsTr("Welcome to pearOS installer<br/>"+
+                text: qsTr("Welcome to PearOS!<br/>"+
                     "Use the left <b>mouse button</b> to go to the next slide, right for previous.<br/>"+
                     "After creating your chosen disk setup in the first 10 % <br/>"+
                     "the full copying of the ISO will take the longest of this install phase <br/>"+
@@ -74,7 +74,7 @@ Presentation
                 text: qsTr("Are you ready for a smooth Linux experience?<br/>"+
                     "This OS contains everything you need for day to day usage, <br/>"+
                     "support for development applications, like Android Studio,<br/>"+
-                    "Visual Studio Code, and much more<br/>")
+                    "Visual Studio Code, and much more!<br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.AlignLeft
@@ -97,8 +97,8 @@ Presentation
                 font.pixelSize: parent.width *.015
                 color: 'black'
                 text: qsTr("The package manager is APT<br/>"+
-                    "Install apps using 'sudo apt install <package name>'. <br/>"+
-                    "for example, sudo apt install obs-studio<br/>")
+                    "Install apps for Linux with the terminal!'. <br/>"+
+                    "Ex. sudo apt install git<br/>")
                 wrapMode: Text.WordWrap
                 width: 450
                 horizontalAlignment: Text.AlignLeft
@@ -120,7 +120,7 @@ Presentation
                 anchors.horizontalCenterOffset: 250
                 font.pixelSize: parent.width *.015
                 color: 'black'
-                text: qsTr("There are two browsers included in pearOS <br/>"+
+                text: qsTr("There are two browsers included in pearOS, like:<br/>"+
                     "Mozilla Firefox, for stability and daily usage, <br/>"+
                     "and Pafari for macOS look and feel <br/>")
                 wrapMode: Text.WordWrap
